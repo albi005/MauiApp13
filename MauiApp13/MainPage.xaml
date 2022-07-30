@@ -7,7 +7,7 @@
         <Path
             Data="M100 100 200 200"
             Stroke="Blue"
-            StrokeThickness="10"
+            StrokeThickness="5"
             Opacity=".5" />
         <Line
             X1="100"
@@ -15,7 +15,19 @@
             X2="200"
             Y2="200"
             Stroke="Red"
-            StrokeThickness="10"
+            StrokeThickness="20"
             Opacity=".5" />
+        <Polygon
+            Points="100,100 200,100 100,200"
+            Fill="Green"
+            Opacity=".5" />
+        <Path Fill="Yellow" Opacity=".5">
+            <Path.Data>
+                <EllipseGeometry
+                    Center="150,150"
+                    RadiusX="50"
+                    RadiusY="50" />
+            </Path.Data>
+        </Path>
     </Grid>
 </ContentPage>
